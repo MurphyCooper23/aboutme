@@ -1,12 +1,581 @@
 <!DOCTYPE html>
-<html>
+<html lang="hi">
 <head>
-<title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silai Srijan - Handcrafted Traditional Wear | सिलाई सृजन</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="lang-hi">
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+    <!-- Header -->
+    <header>
+        <div class="container navbar">
+            <div class="logo-container">
+                <a href="#" class="logo">
+                    <span class="lang-hi">सिलाई सृजन</span>
+                    <span class="lang-en">Silai Srijan</span>
+                </a>
+            </div>
 
+            <ul class="nav-menu">
+                <li>
+                    <a href="#home" class="nav-link">
+                        <span class="lang-hi">होम</span>
+                        <span class="lang-en">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#story" class="nav-link">
+                        <span class="lang-hi">कहानी</span>
+                        <span class="lang-en">Our Story</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#services" class="nav-link">
+                        <span class="lang-hi">सेवाएं</span>
+                        <span class="lang-en">Services</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#designs" class="nav-link">
+                        <span class="lang-hi">डिजाइन</span>
+                        <span class="lang-en">Designs</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#gallery" class="nav-link">
+                        <span class="lang-hi">गैलरी</span>
+                        <span class="lang-en">Gallery</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#pricing" class="nav-link">
+                        <span class="lang-hi">मूल्य</span>
+                        <span class="lang-en">Pricing</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-link">
+                        <span class="lang-hi">संपर्क</span>
+                        <span class="lang-en">Contact</span>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="nav-icons">
+                <button id="langToggle" class="lang-toggle">
+                    <i class="fas fa-globe"></i>
+                    <span class="lang-hi">English</span>
+                    <span class="lang-en">हिंदी</span>
+                </button>
+
+                <a href="tel:9179170790" class="btn-outline" style="border-radius: 50%; padding: 8px; width: 40px; height: 40px; display:flex; align-items:center; justify-content:center;">
+                    <i class="fas fa-phone-alt"></i>
+                </a>
+                
+                <a href="https://wa.me/919179170790" class="btn-outline" style="border-radius: 50%; padding: 8px; width: 40px; height: 40px; display:flex; align-items:center; justify-content:center; color: #25D366; border-color: #25D366;">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>
+                <span class="lang-hi">हस्तनिर्मित पारंपरिक परिधान</span>
+                <span class="lang-en">Handcrafted Traditional Wear</span>
+            </h1>
+            <p>
+                <span class="lang-hi">हर टांके में कला, हर डिजाइन में प्यार</span>
+                <span class="lang-en">Art in Every Stitch, Love in Every Design</span>
+            </p>
+            <a href="#designs" class="btn">
+                <span class="lang-hi">संग्रह देखें</span>
+                <span class="lang-en">View Collection</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section id="story" class="section-padding story-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>
+                    <span class="lang-hi">हमारी कहानी</span>
+                    <span class="lang-en">Our Story</span>
+                </h2>
+            </div>
+            <div class="story-content">
+                <img src="https://images.unsplash.com/photo-1596232598370-13f6396e1b6f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Artisan" class="artisan-img" loading="lazy">
+                <div class="story-text">
+                    <p class="lang-hi">
+                        हमारा मानना है कि कपड़े सिर्फ सिलाई नहीं, बल्कि एक कला हैं। वर्षों के अनुभव के साथ, हम पुरानी साड़ियों को नए डिजाइनों में बदलते हैं और पारंपरिक परिधानों में आधुनिकता का स्पर्श देते हैं। हर परिधान को बारीकी और प्यार से तैयार किया जाता है।
+                    </p>
+                    <p class="lang-en">
+                        We believe that tailoring is not just stitching, but an art form. With years of experience, we transform old sarees into new designs and add a modern touch to traditional garments. Every piece is crafted with precision and love.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section (Collections Grid) -->
+    <section id="services" class="section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>
+                    <span class="lang-hi">हमारी सेवाएं</span>
+                    <span class="lang-en">Our Services</span>
+                </h2>
+                <p>
+                    <span class="lang-hi">आपके लिए विशेष रूप से तैयार</span>
+                    <span class="lang-en">Curated especially for you</span>
+                </p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Blouse" loading="lazy">
+                    </div>
+                    <div class="service-info">
+                        <h3>
+                            <span class="lang-hi">ब्लाउज</span>
+                            <span class="lang-en">Blouses</span>
+                        </h3>
+                        <p style="font-size: 0.9rem; color: var(--text-light);">
+                            <span class="lang-hi">साधारण और डिजाइनर</span>
+                            <span class="lang-en">Simple & Designer</span>
+                        </p>
+                    </div>
+                </div>
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="service-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1605296867424-35fc25c9212a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Frock" loading="lazy">
+                    </div>
+                    <div class="service-info">
+                        <h3>
+                            <span class="lang-hi">फ्रॉक</span>
+                            <span class="lang-en">Frocks</span>
+                        </h3>
+                        <p style="font-size: 0.9rem; color: var(--text-light);">
+                            <span class="lang-hi">बच्चों और बड़ों के लिए</span>
+                            <span class="lang-en">For Kids & Adults</span>
+                        </p>
+                    </div>
+                </div>
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Lehenga" loading="lazy">
+                    </div>
+                    <div class="service-info">
+                        <h3>
+                            <span class="lang-hi">लहंगा</span>
+                            <span class="lang-en">Lehengas</span>
+                        </h3>
+                        <p style="font-size: 0.9rem; color: var(--text-light);">
+                            <span class="lang-hi">ब्राइडल और पार्टी वियर</span>
+                            <span class="lang-en">Bridal & Party Wear</span>
+                        </p>
+                    </div>
+                </div>
+                <!-- Service 4 -->
+                <div class="service-card">
+                    <div class="service-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1583391733958-e026b1419736?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Suit" loading="lazy">
+                    </div>
+                    <div class="service-info">
+                        <h3>
+                            <span class="lang-hi">सूट और अनारकली</span>
+                            <span class="lang-en">Suits & Anarkali</span>
+                        </h3>
+                        <p style="font-size: 0.9rem; color: var(--text-light);">
+                            <span class="lang-hi">परफेक्ट फिटिंग</span>
+                            <span class="lang-en">Perfect Fitting</span>
+                        </p>
+                    </div>
+                </div>
+                <!-- Service 5 -->
+                <div class="service-card">
+                    <div class="service-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1518049362265-d5b2a6467637?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="One Piece" loading="lazy">
+                    </div>
+                    <div class="service-info">
+                        <h3>
+                            <span class="lang-hi">वन पीस</span>
+                            <span class="lang-en">One Piece Suits</span>
+                        </h3>
+                        <p style="font-size: 0.9rem; color: var(--text-light);">
+                            <span class="lang-hi">आधुनिक शैली</span>
+                            <span class="lang-en">Modern Style</span>
+                        </p>
+                    </div>
+                </div>
+                <!-- Service 6 -->
+                <div class="service-card">
+                    <div class="service-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1620799140408-ed5341cd2431?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Saree Work" loading="lazy">
+                    </div>
+                    <div class="service-info">
+                        <h3>
+                            <span class="lang-hi">साड़ी फाल-पीको</span>
+                            <span class="lang-en">Saree Fall-Pico</span>
+                        </h3>
+                        <p style="font-size: 0.9rem; color: var(--text-light);">
+                            <span class="lang-hi">फिनिशिंग वर्क</span>
+                            <span class="lang-en">Finishing Work</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Designs (Masonry) -->
+    <section id="designs" class="section-padding" style="background-color: var(--bg-secondary);">
+        <div class="container">
+            <div class="section-header">
+                <h2>
+                    <span class="lang-hi">विशेष डिजाइन</span>
+                    <span class="lang-en">Featured Designs</span>
+                </h2>
+                <p>
+                    <span class="lang-hi">हमारे द्वारा तैयार की गई कुछ बेहतरीन कृतियाँ</span>
+                    <span class="lang-en">Some of our finest handcrafted creations</span>
+                </p>
+            </div>
+
+            <div class="filter-tabs">
+                <button class="filter-tab active" data-filter="all">
+                    <span class="lang-hi">सभी</span>
+                    <span class="lang-en">All</span>
+                </button>
+                <button class="filter-tab" data-filter="blouse">
+                    <span class="lang-hi">ब्लाउज</span>
+                    <span class="lang-en">Blouses</span>
+                </button>
+                <button class="filter-tab" data-filter="lehenga">
+                    <span class="lang-hi">लहंगे</span>
+                    <span class="lang-en">Lehengas</span>
+                </button>
+                <button class="filter-tab" data-filter="suit">
+                    <span class="lang-hi">सूट</span>
+                    <span class="lang-en">Suits</span>
+                </button>
+            </div>
+            
+            <div class="masonry-grid">
+                <div class="masonry-item" data-category="blouse">
+                    <img src="https://images.unsplash.com/photo-1564258639060-482855140224?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Design 1" loading="lazy">
+                    <div class="masonry-overlay">
+                        <span class="lang-hi">डिजाइनर ब्लाउज</span>
+                        <span class="lang-en">Designer Blouse</span>
+                    </div>
+                </div>
+                <div class="masonry-item" data-category="lehenga">
+                    <img src="https://images.unsplash.com/photo-1583391733975-40810332822a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Design 2" loading="lazy">
+                    <div class="masonry-overlay">
+                        <span class="lang-hi">ब्राइडल लहंगा</span>
+                        <span class="lang-en">Bridal Lehenga</span>
+                    </div>
+                </div>
+                <div class="masonry-item" data-category="suit">
+                    <img src="https://images.unsplash.com/photo-1596704017254-9b121068fb31?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Design 3" loading="lazy">
+                    <div class="masonry-overlay">
+                        <span class="lang-hi">अनारकली सूट</span>
+                        <span class="lang-en">Anarkali Suit</span>
+                    </div>
+                </div>
+                <div class="masonry-item" data-category="blouse">
+                    <img src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Design 4" loading="lazy">
+                    <div class="masonry-overlay">
+                        <span class="lang-hi">एम्ब्रॉयडरी वर्क</span>
+                        <span class="lang-en">Embroidery Work</span>
+                    </div>
+                </div>
+                <div class="masonry-item" data-category="lehenga">
+                    <img src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Design 5" loading="lazy">
+                    <div class="masonry-overlay">
+                        <span class="lang-hi">पार्टी वियर लहंगा</span>
+                        <span class="lang-en">Party Wear Lehenga</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section (Cards) -->
+    <section id="pricing" class="section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>
+                    <span class="lang-hi">मूल्य सूची</span>
+                    <span class="lang-en">Price List</span>
+                </h2>
+                <p>
+                    <span class="lang-hi">गुणवत्ता और विश्वास का सही मूल्य</span>
+                    <span class="lang-en">Fair pricing for quality and trust</span>
+                </p>
+            </div>
+            
+            <div class="pricing-grid">
+                <!-- Price Card 1 -->
+                <div class="price-card">
+                    <div class="price-icon"><i class="fas fa-tshirt"></i></div>
+                    <div class="price-header">
+                        <h3>
+                            <span class="lang-hi">ब्लाउज</span>
+                            <span class="lang-en">Blouse</span>
+                        </h3>
+                    </div>
+                    <div class="price-cost">
+                        <span class="lang-hi">₹250 से शुरू</span>
+                        <span class="lang-en">Starting from ₹250</span>
+                    </div>
+                    <div class="price-desc">
+                        <span class="lang-hi">साधारण सिलाई से लेकर डिजाइनर कट और पैडेड ब्लाउज तक।</span>
+                        <span class="lang-en">From simple stitching to designer cuts and padded blouses.</span>
+                    </div>
+                </div>
+                
+                <!-- Price Card 2 -->
+                <div class="price-card">
+                    <div class="price-icon"><i class="fas fa-user-tie"></i></div>
+                    <div class="price-header">
+                        <h3>
+                            <span class="lang-hi">सूट / सलवार</span>
+                            <span class="lang-en">Suit / Salwar</span>
+                        </h3>
+                    </div>
+                    <div class="price-cost">
+                        <span class="lang-hi">₹400 से शुरू</span>
+                        <span class="lang-en">Starting from ₹400</span>
+                    </div>
+                    <div class="price-desc">
+                        <span class="lang-hi">साधारण सूट, अस्तर वाले सूट, पटियाला और प्लाजो सेट।</span>
+                        <span class="lang-en">Simple suits, lining suits, patiala, and palazzo sets.</span>
+                    </div>
+                </div>
+                
+                <!-- Price Card 3 -->
+                <div class="price-card">
+                    <div class="price-icon"><i class="fas fa-crown"></i></div>
+                    <div class="price-header">
+                        <h3>
+                            <span class="lang-hi">लहंगा</span>
+                            <span class="lang-en">Lehenga</span>
+                        </h3>
+                    </div>
+                    <div class="price-cost">
+                        <span class="lang-hi">₹1500 से शुरू</span>
+                        <span class="lang-en">Starting from ₹1500</span>
+                    </div>
+                    <div class="price-desc">
+                        <span class="lang-hi">कलीदार, घेरेदार और ब्राइडल लहंगे, कैन-कैन के साथ।</span>
+                        <span class="lang-en">Kalidar, flared, and bridal lehengas with can-can.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section (Grid) -->
+    <section id="gallery" class="section-padding" style="background-color: var(--white);">
+        <div class="container">
+            <div class="section-header">
+                <h2>
+                    <span class="lang-hi">हमारा काम</span>
+                    <span class="lang-en">Our Work</span>
+                </h2>
+                <p>
+                    <span class="lang-hi">कारीगरी की कुछ झलकियां</span>
+                    <span class="lang-en">Glimpses of our craftsmanship</span>
+                </p>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1596232598370-13f6396e1b6f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Gallery 1" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1583391733975-40810332822a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Gallery 2" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1518049362265-d5b2a6467637?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Gallery 3" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1620799140408-ed5341cd2431?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Gallery 4" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1605296867424-35fc25c9212a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Gallery 5" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Gallery 6" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1583391733958-e026b1419736?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Gallery 7" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1564258639060-482855140224?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Gallery 8" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="section-padding" style="background-color: var(--bg-secondary);">
+        <div class="container">
+            <div class="section-header">
+                <h2>
+                    <span class="lang-hi">ग्राहक समीक्षा</span>
+                    <span class="lang-en">Customer Reviews</span>
+                </h2>
+            </div>
+            
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p class="review-text">
+                        <span class="lang-hi">"बहुत ही बेहतरीन सिलाई। मेरे पुराने लहंगे को नया लुक दिया। फिटिंग एकदम सही थी।"</span>
+                        <span class="lang-en">"Excellent stitching. Gave my old lehenga a completely new look. Fitting was perfect."</span>
+                    </p>
+                    <p class="reviewer-name">- Priya S.</p>
+                </div>
+                <div class="review-card">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p class="review-text">
+                        <span class="lang-hi">"समय पर डिलीवरी और बहुत ही अच्छा व्यवहार। ब्लाउज की डिजाइन बहुत सुंदर बनाई।"</span>
+                        <span class="lang-en">"Timely delivery and very good behavior. The blouse design was crafted beautifully."</span>
+                    </p>
+                    <p class="reviewer-name">- Neha K.</p>
+                </div>
+                <div class="review-card">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></div>
+                    <p class="review-text">
+                        <span class="lang-hi">"सूट की फिटिंग बहुत अच्छी है। मैं अपनी सभी सहेलियों को यहाँ आने की सलाह दूँगी।"</span>
+                        <span class="lang-en">"The fitting of the suit is very good. I will recommend this place to all my friends."</span>
+                    </p>
+                    <p class="reviewer-name">- Anjali R.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>
+                    <span class="lang-hi">संपर्क करें</span>
+                    <span class="lang-en">Get in Touch</span>
+                </h2>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <strong>
+                                <span class="lang-hi">स्थान</span>
+                                <span class="lang-en">Location</span>
+                            </strong>
+                            <p>
+                                <span class="lang-hi">प्रभा, भारत</span>
+                                <span class="lang-en">Prabha, India</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+                        <div>
+                            <strong>
+                                <span class="lang-hi">फोन</span>
+                                <span class="lang-en">Phone</span>
+                            </strong>
+                            <p>+91 9179170790</p>
+                        </div>
+                    </div>
+
+                    <div style="margin-top: 30px;">
+                        <a href="https://wa.me/919179170790" class="btn" style="background-color: #25D366; width: 100%; text-align: center;">
+                            <i class="fab fa-whatsapp"></i> 
+                            <span class="lang-hi">व्हाट्सएप पर मेसेज करें</span>
+                            <span class="lang-en">Message on WhatsApp</span>
+                        </a>
+                    </div>
+
+                    <div class="contact-note">
+                        <strong>
+                            <span class="lang-hi">नोट:</span>
+                            <span class="lang-en">Note:</span>
+                        </strong>
+                        <p>
+                            <span class="lang-hi">नयी व पुरानी साडियों से महिला परिधानों की सिलाई की जाती है।</span>
+                            <span class="lang-en">Women's garments stitched from new and old sarees.</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="map-wrapper">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.081045237305!2d75.8577!3d22.7196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDQzJzEwLjYiTiA3NcKwNTEnMjcuNyJF!5e0!3m2!1sen!2sin!4v1625000000000!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <span class="footer-logo">
+                <span class="lang-hi">सिलाई सृजन</span>
+                <span class="lang-en">Silai Srijan</span>
+            </span>
+            <p class="footer-tagline">
+                <span class="lang-hi">सिलाई की कला</span>
+                <span class="lang-en">The Art of Tailoring</span>
+            </p>
+            
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/919179170790"><i class="fab fa-whatsapp"></i></a>
+            </div>
+
+            <div class="copyright">
+                <p>
+                    &copy; 2025 
+                    <span class="lang-hi">सिलाई सृजन</span>
+                    <span class="lang-en">Silai Srijan</span>
+                    . All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="modal">
+        <span class="close-modal">&times;</span>
+        <div class="modal-content">
+            <img id="fullImage" class="modal-img-full" src="" alt="Full View">
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script src="js/script.js"></script>
 </body>
 </html>
